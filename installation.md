@@ -1,8 +1,8 @@
 ## Installing Node.js (via nvm)
 
-Node.js is a javascript runtime that, in addition to being one of the most widely adopted and versatile runtimes, is also a requirement for a working Aurelia application. Read more about [Node.js](https://nodejs.org/)
+Node.js is a javascript runtime that, in addition to being one of the most widely adopted and versatile runtimes, is also a requirement for .. say, a working [Aurelia](http://aurelia.io/) application! Read more about [Node.js](https://nodejs.org/)
 
-To install node (on Mac) it's considered a good practice to use nvm, a Node Version Manager - and it's easy!
+To install node (on Mac) it's considered a good practice to use **nvm** _(**n**ode **v**ersion **m**anager)_ - and it's easy!
 
 ### Remove old versions of Node
 
@@ -19,14 +19,14 @@ This isn't too tricky to do, but as of this writing there's no official uninstal
 Once node is gone we're ready for the nvm.
 
 ### Install the Node Version Manager (nvm)
-Why? It lets you easily swap between versions of node, and, for me, it was the only install I could get to properly work without having to `sudo` the heck out of everything.
+***WHY?*** It lets you easily swap between versions of node, and, for me, it was the only install I could get to properly work without having to `sudo` the heck out of everything.
 
 If you're on **mac/linux** this can be done right from the commandline by running the install script from github
 
 ```
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
 ```
-Part of the install will inject the NVM_PATH variable into your session so if running `nvm` doesn't work, just log out and then back in to pick up the profile changes.
+Part of the install will inject the `NVM_PATH` variable into your `bash_profile` so if running `nvm` doesn't immediately work, just log out and then back in to pick up the profile changes.
 
 If you're on **windows** you'll have to hit Google for answers as there's no official version of nvm for windows (unless it says otherwise [here](https://github.com/creationix/nvm#installation))
 
@@ -82,4 +82,4 @@ CWB-MBP:test DeepThought$
 ```
 
 ## Done
-That's it! You should have a working, `sudo`-free version of NodeJs and the used-for-dang-near-everything `npm` (node package manager)
+That's it! You should have a working, `sudo`-free version of NodeJs and the used-for-dang-near-everything `npm` _(**n**ode **p**ackage **m**anager)_
